@@ -23,7 +23,7 @@ const ContextChild = (props) => {
     <section className='hook-data-section'>
       <p>user: {user}</p>
       <p>trip: {trip}</p>
-      <p>AllTrips: {`[${printArray(allUsers)}]`}</p>
+      <p>AllUsers: {`[${printArray(allUsers)}]`}</p>
       <button onClick={clickSetUser}>Set user to Jeff</button>
     </section>
     );
