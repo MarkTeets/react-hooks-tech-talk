@@ -8,7 +8,8 @@ module.exports = {
 
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/',
   },
 
   mode: process.env.NODE_ENV,
@@ -18,7 +19,9 @@ module.exports = {
       template: './client/index.html'
     }),
   ],
-
+  devServer: {
+    historyApiFallback: true,
+  },
   module: {
     rules: [
       {
