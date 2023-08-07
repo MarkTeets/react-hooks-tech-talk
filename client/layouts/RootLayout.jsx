@@ -9,7 +9,7 @@ const RootLayout = () => {
           <NavLink to='/' className='nav-link'>Home</NavLink>
           <NavLink to='/State' className='nav-link'>useState & useEffect</NavLink>
           <NavLink to='/InfiniteEffect' className='nav-link'>useEffect Anti-Patterns</NavLink>
-          <NavLink to='/ContextParent' className='nav-link'>useContext</NavLink>
+          <NavLink to='/ContextParent' className='nav-link'>useContext and Rendering</NavLink>
           <NavLink to='/Ref' className='nav-link'>useRef</NavLink>
           <NavLink to='/AllHooks' className='nav-link'> All Hooks </NavLink>
         </nav>
