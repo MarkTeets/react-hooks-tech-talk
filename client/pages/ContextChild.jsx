@@ -16,7 +16,8 @@ const ContextChild = (props) => {
   }, [user]);
 
   const clickSetUser = () => {
-    setUser('Jeff')
+    if (user === 'Mark') setUser('Jeff')
+    else setUser('Mark');
   }
 
   return (
@@ -24,7 +25,7 @@ const ContextChild = (props) => {
       <p>user: {user}</p>
       <p>trip: {trip}</p>
       <p>AllUsers: {`[${printArray(allUsers)}]`}</p>
-      <button onClick={clickSetUser}>Set user to Jeff</button>
+      <button onClick={clickSetUser}>Switch user</button>
     </section>
     );
 }
