@@ -5,7 +5,7 @@ body {
   background-color: rgb(226, 236, 222);
 }
 
-h1, h2, h4 {
+h1, h2, h4, p {
   text-align: center;
 }
 
@@ -13,11 +13,14 @@ h1, h2, h4 {
   margin-top: 60px;
 }
 
+button {
+  margin: 4px auto;
+}
+
 /* Navbar */
 
 .nav {
   background-color: #83B2B8;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -47,7 +50,7 @@ h1, h2, h4 {
   padding-right: 4em;
   padding-left: 4em;
   margin-top: 2em;
-  max-width: 300px;
+  max-width: 420px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -69,6 +72,15 @@ h1, h2, h4 {
 }
 
 .hook-data-section p {
-  text-align: center;
+  margin: 8px;
+}
+
+.context-child {
+  border: 2px dashed #125d13;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.second-child {
   margin: 8px;
 }
